@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.container {
+  /* width: 500%; */
+  height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+}
+
+.panel {
+  width: 100vw;
+  flex: none;
+  height: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.5em;
+  /* text-align: center; */
+  position: relative;
+  box-sizing: border-box;
+  padding: 10px;
+  /* background-color: white; */
+  background-color: #13072E ;
+}
+
+.panel:nth-child(odd) {
+  /* background-color: #13072E ; */
+  /* background-color: lightblue; */
+}
+
+.stick {
+  color: red;
+/*   position: fixed; */
+  left: 0;
+}
